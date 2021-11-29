@@ -5,6 +5,7 @@ import numpy as np
 
 APP_ROOT = os.path.dirname(os.path.abspath(__file__))
 
+# 스타일전이
 def neuralStyleTransfer(directoryName, filename, selected_style):
 
 	# Neural style transfer codes adapted from pyimageSearch
